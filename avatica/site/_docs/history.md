@@ -66,6 +66,8 @@ Features and bug fixes
   Detach avatica from the core calcite Maven project
 * [<a href="https://issues.apache.org/jira/browse/CALCITE-1117">CALCITE-1117</a>]
   Default to a `commons-httpclient` implementation
+* [<a href="https://issues.apache.org/jira/browse/CALCITE-1118">CALCITE-1118</a>]
+  Add a noop-JDBC driver for testing Avatica server
 * [<a href="https://issues.apache.org/jira/browse/CALCITE-1119">CALCITE-1119</a>]
   Additional metrics instrumentation for request processing
 * [<a href="https://issues.apache.org/jira/browse/CALCITE-1094">CALCITE-1094</a>]
@@ -78,6 +80,8 @@ Features and bug fixes
   Avoid sending `Signature` on `Execute` for updates
 * [<a href="https://issues.apache.org/jira/browse/CALCITE-1031">CALCITE-1031</a>]
   In prepared statement, `CsvScannableTable.scan` is called twice
+* [<a href="https://issues.apache.org/jira/browse/CALCITE-1085">CALCITE-1085</a>]
+  Use a `NoopContext` singleton in `NoopTimer`
 * [<a href="https://issues.apache.org/jira/browse/CALCITE-642">CALCITE-642</a>]
   Add an avatica-metrics API
 * [<a href="https://issues.apache.org/jira/browse/CALCITE-1071">CALCITE-1071</a>]
@@ -86,6 +90,8 @@ Features and bug fixes
   Mass removal of Java Logging for SLF4J
 * [<a href="https://issues.apache.org/jira/browse/CALCITE-1067">CALCITE-1067</a>]
   Test failures due to clashing temporary table names
+* [<a href="https://issues.apache.org/jira/browse/CALCITE-999">CALCITE-999</a>]
+  Clean up maven POM files
 
 Web site and documentation
 
